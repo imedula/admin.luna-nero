@@ -1,0 +1,16 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 4%;
+}
+.navbar .logo {
+    width: max(7%,40px);
+    /* box-shadow: -5px -5px 15px #444, 5px 5px 15px #222, inset 5px 5px 10px #444,
+    inset -5px -5px 10px #222; */
+  font-family: "Damion", cursive;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+

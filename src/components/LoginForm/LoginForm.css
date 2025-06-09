@@ -1,0 +1,41 @@
+.login-form {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 12px; /* Увеличиваем отступы */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px; /* Увеличиваем скругление */
+    cursor: pointer;
+    font-size: 16px; /* Увеличиваем размер шрифта */
+    font-weight: bold; /* Делаем текст жирным */
+    transition: background-color 0.3s ease; /* Добавляем плавный переход цвета */
+}
+
+.login-form button:hover {
+    background-color: #0056b3; /* Изменяем цвет при наведении */
+}
+
+.login-form button:active {
+    background-color: #004085; /* Изменяем цвет при нажатии */
+}

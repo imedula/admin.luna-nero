@@ -1,0 +1,122 @@
+:root {
+    --background-dark: #121212;
+    --card-dark: #1e1e1e;
+    --primary-color: #bb86fc;
+    --secondary-color: #03dac6;
+    --text-light: #ffffff;
+    --text-gray: #b0b0b0;
+    --border-radius: 12px;
+  }
+.order-item {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr;
+    align-items: start;
+    gap: 10px;
+    padding: 20px;
+    margin: 30px 0px;
+    font-size: 14px;
+    color: #121010;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+  transition: transform 0.3s ease;
+  border-radius: 12px;
+}
+    .order-item-item, .order-item-name {
+        font-weight: 600;
+    }
+.order-item-name {
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+.orders-container {
+    
+    color: var(--text-light);
+    padding: 2rem;
+    min-height: 100vh;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .orders-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: var(--primary-color);
+  }
+  .order-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .order-header {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+  
+  .parcel-icon {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .order-info {
+    flex: 1;
+  }
+  
+  .order-items {
+    font-size: 0.9rem;
+    color: var(--text-gray);
+  }
+  
+  .customer-name {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-top: 0.5rem;
+  }
+  
+  .order-address, .order-phone {
+    font-size: 0.9rem;
+    color: var(--text-gray);
+  }
+  .order-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  
+  .order-count, .order-price {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .order-status {
+    padding: 0.5rem 1rem;
+    border-radius: var(--border-radius);
+    border: none;
+    background: var(--secondary-color);
+    color: var(--background-dark);
+    cursor: pointer;
+  }
+  
+  .order-status:focus {
+    outline: none;
+  }
+  
+  .delete-order {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: var(--border-radius);
+    background: #cf6679;
+    color: var(--text-light);
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .delete-order:hover {
+    background: #b00020;
+  }
+  .no-orders {
+    text-align: center;
+    color: var(--text-gray);
+    font-size: 1.2rem;
+  }
+    

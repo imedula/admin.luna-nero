@@ -1,0 +1,124 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .add {
+    display: flex;
+    min-height: 100vh;
+    background: #f8f9fa;
+    padding: 20px;
+  }
+  
+  form {
+    background: #fff;
+    padding: 24px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  /* Image Upload */
+  .add-img-upload {
+    text-align: center;
+    position: relative;
+  }
+  
+  .add-img-upload p {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+  .add-img-upload label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border: 1.5px dashed #ccc;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: border-color 0.3s;
+    background: #f9f9f9;
+    overflow: hidden;
+  }
+  
+  .add-img-upload label:hover {
+    border-color: #6c63ff;
+  }
+  
+  .add-img-upload img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* Form Inputs */
+  .flex-col {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  
+  p {
+    font-size: 13px;
+    font-weight: 500;
+    color: #444;
+  }
+  
+  input,
+  textarea,
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: border 0.3s;
+    background: #fff;
+  }
+  
+  input:focus,
+  textarea:focus,
+  select:focus {
+    border-color: #6c63ff;
+    outline: none;
+  }
+  
+  /* Category and Price Section */
+  .add-category-price {
+    display: flex;
+    gap: 12px;
+  }
+  
+  .add-category,
+  .add-price {
+    flex: 1;
+  }
+  
+  /* Submit Button */
+  .add-btn {
+    background: #6c63ff;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .add-btn:hover {
+    background: #5149d0;
+  }
+  
