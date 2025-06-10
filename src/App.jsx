@@ -11,7 +11,7 @@ import './App.css'; // Добавляем импорт стилей
 const App = () => {
     
     const url = import.meta.env.VITE_API_URL;
-
+    console.log("444",url);
     return (
         <div>
             <ToastContainer />
